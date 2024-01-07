@@ -6,7 +6,7 @@ Hi {{$checkout->User->name}}
 Thank you for register on <b>{{$checkout->Camp->title}}</b>, please see payment instruction by click the button below.
 
 <x-mail::button :url="$url">
-Get Invoice
+My Dashboard
 </x-mail::button>
 
 Thanks,<br>
